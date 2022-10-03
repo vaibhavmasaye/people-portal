@@ -44,7 +44,7 @@ import TablePagination from "../components/Table/TablePagination";
 import FileUpload from "../components/FileUpload/FileUpload";
 import Accordion from "../components/Accordion/Accordion";
 
-const dropdownData = ["one", "two", "three"]
+const dropdownData = ["one", "two", "three"];
 
 const data = [
   {

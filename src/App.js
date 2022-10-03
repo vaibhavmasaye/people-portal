@@ -7,16 +7,14 @@ import Leave from "./pages/Leave";
 import Salary from "./pages/Salary";
 import Policies from "./pages/Policies";
 import Resignation from "./pages/Resignation";
-
+import Header from "./custom_components/Header";
 
 function App() {
   return (
     <>
       <Router>
         <GlobalStyle />
-        <div className="flex items-center justify-center h-[50px] custom-header text-[#0b0a0a]">
-          This is Header
-        </div>
+        <Header />
         <Routes>
           <Route path="/" element={<Test />} />
           <Route path="/dashboard" element={<Dashboard />} />

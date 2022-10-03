@@ -2,3 +2,78 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Lato";
+}
+
+.test {
+  border: 1px solid red;
+}
+
+.test2 {
+  border: 1px solid blue;
+}
+
+.custom-px {
+  padding: 0px 100px;
+}
+.custom-py {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.custom-gradient {
+  /* Navbar */
+  background: linear-gradient(90.1deg, #1765dc 0%, #000000 100%);
+}
+
+.counter-btn-active {
+  color: #ffff;
+  background: #1765dc;
+  box-shadow: 0px 4px 8px rgba(23, 101, 220, 0.25);
+  border-radius: 8px;
+  color: #ffffff;
+}
+.counter-btn-inactive {
+  background: #ffffff;
+  border: 2px solid #1765dc;
+  border-radius: 8px;
+  color: #1765dc;
+}
+
+.custom-statCard {
+  background: #ffffff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+/* Tables */
+
+#attendance-card-table {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+}
+
+#attendance-card-table th {
+  padding: 10px;
+  background: rgba(23, 101, 220, 0.9);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#attendance-card-table th,
+td {
+  padding: 10px 20px;
+}
+
+#attendance-card-table td {
+  font-weight: 600;
+  color: #333333;
+}
+
+#salary-card-table {
+}
